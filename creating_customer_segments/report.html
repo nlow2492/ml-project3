@@ -11782,7 +11782,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[2]:</div>
+<div class="prompt input_prompt">In&nbsp;[31]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># Import libraries necessary for this project</span>
@@ -11835,7 +11835,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[3]:</div>
+<div class="prompt input_prompt">In&nbsp;[32]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># Display a description of the dataset</span>
@@ -11962,7 +11962,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[4]:</div>
+<div class="prompt input_prompt">In&nbsp;[33]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># TODO: Select three indices of your choice you wish to sample from the dataset</span>
@@ -12093,7 +12093,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[5]:</div>
+<div class="prompt input_prompt">In&nbsp;[34]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.cross_validation</span> <span class="kn">import</span> <span class="n">train_test_split</span>
@@ -12166,7 +12166,7 @@ I attempted to predict the Delicatessen feature.  The reported prediction score 
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[6]:</div>
+<div class="prompt input_prompt">In&nbsp;[35]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># Produce a scatter matrix for each pair of features in the data</span>
@@ -14000,7 +14000,7 @@ Ny7+WPF7swAAAABJRU5ErkJggg==
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[7]:</div>
+<div class="prompt input_prompt">In&nbsp;[36]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># TODO: Scale the data using the natural logarithm</span>
@@ -17742,7 +17742,7 @@ AAAASUVORK5CYII=
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[8]:</div>
+<div class="prompt input_prompt">In&nbsp;[37]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># Display the log-transformed sample data</span>
@@ -17833,7 +17833,7 @@ Once you have performed this implementation, the dataset will be stored in the v
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[9]:</div>
+<div class="prompt input_prompt">In&nbsp;[38]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="kn">import</span> <span class="nn">collections</span>
@@ -18548,7 +18548,7 @@ Once you have performed this implementation, the dataset will be stored in the v
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[10]:</div>
+<div class="prompt input_prompt">In&nbsp;[39]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.decomposition</span> <span class="kn">import</span> <span class="n">PCA</span>
@@ -18560,6 +18560,7 @@ Once you have performed this implementation, the dataset will be stored in the v
 
 <span class="c1"># Generate PCA results plot</span>
 <span class="n">pca_results</span> <span class="o">=</span> <span class="n">rs</span><span class="o">.</span><span class="n">pca_results</span><span class="p">(</span><span class="n">good_data</span><span class="p">,</span> <span class="n">pca</span><span class="p">)</span>
+<span class="k">print</span> <span class="n">pca_results</span><span class="p">[</span><span class="s1">&#39;Explained Variance&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">cumsum</span><span class="p">()</span>
 </pre></div>
 
 </div>
@@ -18569,6 +18570,19 @@ Once you have performed this implementation, the dataset will be stored in the v
 <div class="output_wrapper">
 <div class="output">
 
+
+<div class="output_area"><div class="prompt"></div>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Dimension 1    0.4424
+Dimension 2    0.7190
+Dimension 3    0.8352
+Dimension 4    0.9314
+Dimension 5    0.9772
+Dimension 6    1.0001
+Name: Explained Variance, dtype: float64
+</pre>
+</div>
+</div>
 
 <div class="output_area"><div class="prompt"></div>
 
@@ -18950,7 +18964,7 @@ zKw/vh/eFsBqM/v0vCcT8oOQzgV8eVAfX/c9wGbn3Ngg6hduQj0PHvf/w1eObxz6/wRRt3AU6nlw
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>Answer:</strong> In the first and second principal component, the variance in data explained in total is approximately 0.7132.  The variance in data explained in the first four principal components is approximately 0.9298. The first dimension seems to represent customers who want groceries, milk, and detergent representing a market that sells mainly detergents with a variety of groceries and milk.  The second dimension seems to represent customers who spend alot of money on fresh, frozen, and delicatessen depicting a market that mainly sells food. The third dimension shows customer mostly spending on delicatessen and frozen with very little fresh products depicting a deli that sells meat.  The fourth dimension depicts a customer who spends largely on frozen depicting a dessert shop.</p>
+<p><strong>Answer:</strong> In the first and second principal component, the variance in data explained in total is approximately 0.7190.  The variance in data explained in the first four principal components is approximately 0.9314. The first dimension seems to represent spending on groceries, milk, and detergent representing a market that sells mainly detergents with a variety of groceries and milk.  The second dimension seems to represent spending on fresh, frozen, and delicatessen depicting a market that mainly sells food. The third dimension shows a large amount of spending on fresh products and some on detergents/paper. This dimension also shows a lack of spending on deli and frozen products depicting either a vegetarian restaurant or a market similar to a farmer's market. The fourth dimension depicts a large amount of spending on frozen products and a lack of spending on deli products. This seems to point towards being a market that doesn't have a deli section.</p>
 
 </div>
 </div>
@@ -18967,7 +18981,7 @@ zKw/vh/eFsBqM/v0vCcT8oOQzgV8eVAfX/c9wGbn3Ngg6hduQj0PHvf/w1eObxz6/wRRt3AU6nlw
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[11]:</div>
+<div class="prompt input_prompt">In&nbsp;[40]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># Display sample log-data after having a PCA transformation applied</span>
@@ -19055,7 +19069,7 @@ zKw/vh/eFsBqM/v0vCcT8oOQzgV8eVAfX/c9wGbn3Ngg6hduQj0PHvf/w1eObxz6/wRRt3AU6nlw
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[12]:</div>
+<div class="prompt input_prompt">In&nbsp;[41]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># TODO: Apply PCA by fitting the good data with only two dimensions</span>
@@ -19088,7 +19102,7 @@ zKw/vh/eFsBqM/v0vCcT8oOQzgV8eVAfX/c9wGbn3Ngg6hduQj0PHvf/w1eObxz6/wRRt3AU6nlw
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[13]:</div>
+<div class="prompt input_prompt">In&nbsp;[42]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># Display sample log-data after applying PCA transformation in two dimensions</span>
@@ -19195,7 +19209,7 @@ zKw/vh/eFsBqM/v0vCcT8oOQzgV8eVAfX/c9wGbn3Ngg6hduQj0PHvf/w1eObxz6/wRRt3AU6nlw
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[14]:</div>
+<div class="prompt input_prompt">In&nbsp;[47]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.cluster</span> <span class="kn">import</span> <span class="n">KMeans</span>
@@ -19223,6 +19237,9 @@ zKw/vh/eFsBqM/v0vCcT8oOQzgV8eVAfX/c9wGbn3Ngg6hduQj0PHvf/w1eObxz6/wRRt3AU6nlw
 <span class="c1"># TODO: Predict the cluster for each data point</span>
 <span class="n">preds</span> <span class="o">=</span> <span class="n">clusterer</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">reduced_data</span><span class="p">)</span>
 
+<span class="c1"># TODO: Predict the cluster for each transformed sample data point</span>
+<span class="n">sample_preds</span> <span class="o">=</span> <span class="n">clusterer</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">pca_samples</span><span class="p">)</span>
+
 <span class="c1"># TODO: Find the cluster centers</span>
 <span class="n">centers</span> <span class="o">=</span> <span class="n">clusterer</span><span class="o">.</span><span class="n">cluster_centers_</span>
 </pre></div>
@@ -19238,10 +19255,10 @@ zKw/vh/eFsBqM/v0vCcT8oOQzgV8eVAfX/c9wGbn3Ngg6hduQj0PHvf/w1eObxz6/wRRt3AU6nlw
 <div class="output_area"><div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>(2, 0.41916608320292309)
-(3, 0.39235868995830997)
-(4, 0.33020829090662096)
-(5, 0.35082887648957822)
-(6, 0.34730394950749172)
+(3, 0.39302110818783093)
+(4, 0.33288161925846227)
+(5, 0.35006859016853853)
+(6, 0.34859926504674654)
 </pre>
 </div>
 </div>
@@ -19282,7 +19299,7 @@ zKw/vh/eFsBqM/v0vCcT8oOQzgV8eVAfX/c9wGbn3Ngg6hduQj0PHvf/w1eObxz6/wRRt3AU6nlw
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[15]:</div>
+<div class="prompt input_prompt">In&nbsp;[48]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># Display the results of the clustering from implementation</span>
@@ -20118,7 +20135,7 @@ gAAAAABEBgkQAAAAgMggAQIAAAAQGf8fjgaVTvYQpNcAAAAASUVORK5CYII=
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[16]:</div>
+<div class="prompt input_prompt">In&nbsp;[49]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># TODO: Inverse transform the centers</span>
@@ -20206,8 +20223,8 @@ gAAAAABEBgkQAAAAgMggAQIAAAAQGf8fjgaVTvYQpNcAAAAASUVORK5CYII=
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><strong>Answer:</strong></p>
 <ul>
-<li>Segment 0: Cluster 0 center could be representative of a dessert cafe due to its above average values in the frozen categories. This is difficult to determine as all features are significantly below average. However, the amount of frozen products is inbetween the 50% quartile and 75% quartile; meanwhile, the rest of the features are much closer to the 25% quartile. As a result of the cluster center being similar to a dessert cafe, the cluster could represent a general form of cafes that serve any form of food. This could include restaurants, coffee shops, etc.</li>
-<li>Segment 1: Cluster 1 could be representative of a grocery market as it has above average values in milk, groceries, and detergents/paper products.  All three of these features are past the 75% quartile mark showing the significance of the purchase compared to lower values.</li>
+<li>Segment 0: Cluster 0 could be representative of a grocery market as it has above average values in milk, groceries, and detergents/paper products.  All three of these features are past the 75% quartile mark showing the significance of the purchase compared to lower values.</li>
+<li>Segment 1: Cluster 1 center could be representative of a dessert cafe due to its above average values in the frozen categories. This is difficult to determine as all features are significantly below average. However, the amount of frozen products is inbetween the 50% quartile and 75% quartile; meanwhile, the rest of the features are much closer to the 25% quartile. As a result of the cluster center being similar to a dessert cafe, the cluster could represent a general form of cafes that serve any form of food. This could include restaurants, coffee shops, etc.</li>
 </ul>
 
 </div>
@@ -20226,7 +20243,7 @@ gAAAAABEBgkQAAAAgMggAQIAAAAQGf8fjgaVTvYQpNcAAAAASUVORK5CYII=
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[17]:</div>
+<div class="prompt input_prompt">In&nbsp;[50]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># Display the predictions</span>
@@ -20244,9 +20261,9 @@ gAAAAABEBgkQAAAAgMggAQIAAAAQGf8fjgaVTvYQpNcAAAAASUVORK5CYII=
 
 <div class="output_area"><div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Sample point 0 predicted to be in Cluster 1
-Sample point 1 predicted to be in Cluster 1
-Sample point 2 predicted to be in Cluster 1
+<pre>Sample point 0 predicted to be in Cluster 0
+Sample point 1 predicted to be in Cluster 0
+Sample point 2 predicted to be in Cluster 0
 </pre>
 </div>
 </div>
@@ -20260,7 +20277,7 @@ Sample point 2 predicted to be in Cluster 1
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>Answer:</strong> In Question 1, the sample points were all predicted to be markets except for sample point 2. Therefore, sample points 0 and 1 would be closely related to cluster 1 and sample point 2 would be closely related to cluster 0. My predictions did not end up being completely consistent with the results of the above code block. Sample point 2 was the only difference and ended up being considered a part of Cluster 1.</p>
+<p><strong>Answer:</strong> In Question 1, the sample points were all predicted to be markets except for sample point 2. Therefore, sample points 0 and 1 would be closely related to cluster 0 and sample point 2 would be closely related to cluster 1. My predictions did not end up being completely consistent with the results of the above code block. Sample point 2 was the only difference and ended up being considered a part of Cluster 0. Also, Sample 0 and 1 values for grocery, milk, and detergents_paper are above average and mimic the ratios of Segment 0 showing that the comparison is valid. Sample 2 is a little harder to compare to the cluster centers because its Fresh value was so high; however, Sample 2 has average values in Milk, Groceries, Detergents_Paper, and Deli unlike the lack of spending in those areas demonstrated by Segment 1. As a result, Sample 2 is consistent with Segment 0 although it is close to being within Segment 1.</p>
 
 </div>
 </div>
@@ -20300,7 +20317,7 @@ Sample point 2 predicted to be in Cluster 1
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>Answer:</strong> A reduction in amount of days a customer is able to receive products generally leads to issues for customers who require fresh products as the products would not be fresh the following day. Therefore, all the customers that require a large amount of fresh products will tend to be the people who will react negatively to the change. These customers would likely be in cluster 0 as it contains all the restaurants that require fresh foods to continue to serve their customers quality entrees. Therefore, a wholesale distributor can look at cluster 1 to determine which customers would react positively to the change in delivery service as they are mainly markets.</p>
+<p><strong>Answer:</strong> A reduction in amount of days a customer is able to receive products generally leads to issues for customers who require fresh products as the products would not be fresh the following day. Therefore, all the customers that require a large amount of fresh products will tend to be the people who will react negatively to the change. These customers would likely be in cluster 1 as it contains all the restaurants that require fresh foods to continue to serve their customers quality entrees. In terms of an A/B test, the wholesale distributor can create an control group, A, that represents the normal 5 days a week delivery. The changed group, B, would be the new 3 day a week delivery. The A group would maintain the same cluster sample as shown above and the B group would have a new predicted set of clusters to see if any changes occured when compared to the A group sample. For example, if the new cluster segment 1 becomes smaller compared to the control sample, it probably means that customers are buying less Fresh products due to disatisfaction with the new delivery scheme.</p>
 
 </div>
 </div>
